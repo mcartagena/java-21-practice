@@ -15,6 +15,5 @@ public class InterviewMain {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         System.out.println(result);
-
     }
 }
